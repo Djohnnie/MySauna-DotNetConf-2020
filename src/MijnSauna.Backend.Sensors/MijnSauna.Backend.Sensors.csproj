@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.0-preview.8.20407.11" />
+    <PackageReference Include="RestSharp" Version="106.11.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MijnSauna.Backend.Common\MijnSauna.Backend.Common.csproj" />
+    <ProjectReference Include="..\MijnSauna.Common.Protobuf\MijnSauna.Common.Protobuf.csproj" />
+  </ItemGroup>
+
+</Project>
